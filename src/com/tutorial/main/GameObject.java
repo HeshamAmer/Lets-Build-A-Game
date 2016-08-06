@@ -6,7 +6,13 @@ public abstract class GameObject {
 	protected int x,y;
 	protected ID id;
 	protected int velX,velY;
-	
+	protected String text;
+	public String getText() {
+		return text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
 	public GameObject(int x,int y, ID id){
 		this.x=x;
 		this.y=y;

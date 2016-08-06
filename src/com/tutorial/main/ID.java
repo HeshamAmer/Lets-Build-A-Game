@@ -4,5 +4,6 @@ public enum ID {
 	Coin(),
 	Player(),
 	Player2(),
+	LOG(),
 	Enemy();
 }

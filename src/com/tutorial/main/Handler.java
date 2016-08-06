@@ -6,6 +6,7 @@ import java.util.LinkedList;
 public class Handler {
 
 	LinkedList<GameObject> object = new LinkedList<GameObject>();
+	public int TurnTime=1000;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
